@@ -1,6 +1,9 @@
 export default {
   logo: require('~/assets/img/logo_header.svg'),
   footerLogo: require('~/assets/img/logo_footer.svg'),
+  locales: {
+    'cs-cz': ['~/locales/cs-cz']
+  },
   layouts: {
     '*': {
       headerMenu: [

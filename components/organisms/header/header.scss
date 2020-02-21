@@ -1,0 +1,28 @@
+
+.vf-o-header {
+  color: #fff;
+  background-color: #6D4C41;
+
+  .topbar {
+    background-color: #3E2723;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .middlebar {
+    a {
+      color: #fff;
+    }
+  }
+
+  .dropdown {
+    > .btn {
+      &.btn-link,
+      &.btn-link:hover {
+        color: #fff;
+      }
+    }
+  }
+}

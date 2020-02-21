@@ -11,11 +11,11 @@ export default {
     subFolders: false
   },
   head: {
-    title: 'vuefront',
+    title: 'ChameleonColors.cz',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'VueFront' }
+      { hid: 'description', name: 'description', content: 'ChameleonColors.cz' }
     ],
     link: [{
         rel: 'icon',
@@ -34,11 +34,12 @@ export default {
   pwa: {
     icon: {},
     manifest: {
-      name: 'VueFront'
+      name: 'ChameleonColors.cz'
     },
   },
   router: {
-    base: process.env.BASE_URL
+    base: process.env.BASE_URL,
+    linkExactActiveClass: 'active'
   },
   build: {
     babel: {

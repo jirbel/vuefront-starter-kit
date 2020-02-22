@@ -17,3 +17,9 @@
     mixins: [mLogo]
   };
 </script>
+
+<style lang="scss">
+  .nav-section__logo {
+    margin-top: -25px;
+  }
+</style>

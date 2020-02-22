@@ -1,5 +1,5 @@
 <template>
-    <section class="vf-o-header">
+    <section class="header">
         <div class="topbar">
             <vf-m-container>
                 <vf-m-row class="topbar mb-3 py-2">

@@ -39,6 +39,7 @@ export default {
   },
   router: {
     base: process.env.BASE_URL,
+    linkActiveClass: 'active',
     linkExactActiveClass: 'active'
   },
   build: {

@@ -107,7 +107,8 @@ export default {
         }
     },
     atoms: {
-        Button: components.aButton
+        Button: components.aButton,
+        Link: components.aLink
     },
     molecules: {
         CartLink: components.mCartLink,

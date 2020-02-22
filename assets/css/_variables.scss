@@ -6,6 +6,7 @@
 // Color system
 
 $white: #FFF !default;
+$dark-white: #FBFBFB !default;
 $gray-100: #FAFBFE !default;
 $gray-200: #EFF2F7 !default;
 $gray-300: #E5E9F2 !default;
@@ -56,6 +57,7 @@ $colors: map-merge((
         "teal": $teal,
         "cyan": $cyan,
         "white": $white,
+        "dark-white": $dark-white,
         "gray": $gray-600,
         "gray-dark": $gray-800,
         "cham-brown": $chambrown,
@@ -82,6 +84,7 @@ $theme-colors: map-merge((
         "warning": $warning,
         "danger": $danger,
         "white": $white,
+        "dark-white": $dark-white,
         "light": $light,
         "dark": $dark
 ), $theme-colors);
@@ -146,7 +149,7 @@ $love-color: $red !default;
 
 // Body
 
-$body-bg: $white !default;
+$body-bg: $dark-white !default;
 $body-color: $gray-700 !default;
 
 
@@ -307,7 +310,7 @@ $border-color: $gray-200 !default;
 
 $border-radius: .25rem !default;
 $border-radius-xl: .5rem !default;
-$border-radius-lg: .375rem !default;
+$border-radius-lg: .3rem !default;
 $border-radius-sm: .2rem !default;
 
 $rounded-pill: 50rem !default;
@@ -353,7 +356,7 @@ $font-weight-bold: 600 !default;
 $font-weight-bolder: 700 !default;
 
 $font-weight-base: $font-weight-normal !default;
-$line-height-base: 1.7 !default;
+$line-height-base: 1.5 !default;
 
 $h1-font-size: $font-size-base * 2.5 !default;
 $h2-font-size: $font-size-base * 2 !default;
@@ -457,29 +460,29 @@ $table-dark-action-color: lighten($dark, 35%) !default;
 
 // Buttons + Forms
 
-$input-btn-padding-y: .75rem !default;
-$input-btn-padding-x: 1.25rem !default;
+$input-btn-padding-y: .625rem !default;
+$input-btn-padding-x: .75rem !default;
 $input-btn-font-size: $font-size-base !default;
-$input-btn-line-height: $line-height-sm !default;
+$input-btn-line-height: $line-height-base !default;
 
 $input-btn-focus-width: 0 !default;
 $input-btn-focus-color: rgba($component-active-bg, .25) !default;
 $input-btn-focus-box-shadow: 0 0 $input-btn-focus-width $input-btn-focus-color !default;
 
-$input-btn-padding-y-sm: .5rem !default;
-$input-btn-padding-x-sm: 1.25rem !default;
+$input-btn-padding-y-sm: .25rem !default;
+$input-btn-padding-x-sm: .5rem !default;
 $input-btn-font-size-sm: $font-size-sm !default;
-$input-btn-line-height-sm: $input-btn-line-height !default;
+$input-btn-line-height-sm: $line-height-sm !default;
 
-$input-btn-padding-y-lg: 1rem !default;
-$input-btn-padding-x-lg: 1.875rem !default;
+$input-btn-padding-y-lg: .75rem !default;
+$input-btn-padding-x-lg: 1rem !default;
 $input-btn-font-size-lg: $font-size-lg !default;
-$input-btn-line-height-lg: $input-btn-line-height !default;
+$input-btn-line-height-lg: $line-height-lg !default;
 
-$input-btn-padding-y-xl: 1.5rem !default;
+$input-btn-padding-y-xl: 2rem !default;
 $input-btn-padding-x-xl: 2rem !default;
 $input-btn-font-size-xl: $font-size-xl !default;
-$input-btn-line-height-xl: $input-btn-line-height !default;
+$input-btn-line-height-xl: $line-height-xl !default;
 
 $input-btn-border-width: $border-width !default;
 
@@ -487,15 +490,18 @@ $input-btn-border-width: $border-width !default;
 // Buttons
 
 $btn-padding-y: $input-btn-padding-y !default;
-$btn-padding-x: $input-btn-padding-x + 0.5 !default;
+$btn-padding-x: $input-btn-padding-x !default;
+$btn-font-size: $input-btn-font-size !default;
 $btn-line-height: $input-btn-line-height !default;
 
 $btn-padding-y-sm: $input-btn-padding-y-sm !default;
 $btn-padding-x-sm: $input-btn-padding-x-sm !default;
+$btn-font-size-sm: $input-btn-font-size-sm !default;
 $btn-line-height-sm: $input-btn-line-height-sm !default;
 
 $btn-padding-y-lg: $input-btn-padding-y-lg !default;
 $btn-padding-x-lg: $input-btn-padding-x-lg !default;
+$btn-font-size-lg: $input-btn-font-size-lg !default;
 $btn-line-height-lg: $input-btn-line-height-lg !default;
 
 $btn-padding-y-xl: $input-btn-padding-y-xl !default;
@@ -504,12 +510,15 @@ $btn-line-height-xl: $input-btn-line-height-xl !default;
 
 $btn-border-width: $input-btn-border-width !default;
 
-$btn-font-weight: 600 !default;
+$btn-font-weight:             $font-weight-normal !default;
 $btn-box-shadow: none !default;
 $btn-hover-width: 0 !default;
 $btn-hover-box-shadow: 0 4px 15px rgba($primary, 0.35) !default;
 $btn-focus-width: $input-btn-focus-width !default;
 $btn-focus-box-shadow: $input-btn-focus-box-shadow !default;
+$btn-white-space: null !default; // Set to `nowrap` to prevent text wrapping
+
+$btn-block-spacing-y:         .5rem !default;
 
 $btn-active-box-shadow: $btn-box-shadow !default;
 
@@ -556,6 +565,14 @@ $input-placeholder-color: $gray-600 !default;
 $input-focus-placeholder-color: $gray-500 !default;
 
 $input-height-border: $input-border-width * 2 !default;
+
+$input-height-inner:                    add($input-line-height * 1em, $input-padding-y * 2) !default;
+$input-height-inner-half:               add($input-line-height * .5em, $input-padding-y) !default;
+$input-height-inner-quarter:            add($input-line-height * .25em, $input-padding-y / 2) !default;
+
+$input-height:                          add($input-line-height * 1em, add($input-padding-y * 2, $input-height-border, false)) !default;
+$input-height-sm:                       add($input-line-height-sm * 1em, add($input-padding-y-sm * 2, $input-height-border, false)) !default;
+$input-height-lg:                       add($input-line-height-lg * 1em, add($input-padding-y-lg * 2, $input-height-border, false)) !default;
 
 $input-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 

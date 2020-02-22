@@ -1,7 +1,7 @@
 <template>
     <section class="nav-menu-section">
         <div class="nav-menu-section__item">
-            <vf-a-link to="/" class="nav-menu-section__item_link">
+            <vf-a-link to="/" exact class="nav-menu-section__item_link">
                 <div class="nav-menu-section__item_title body-2" v-b-toggle.menu-collapse>
                     <vf-a-icon
                             icon="home"
@@ -59,6 +59,7 @@
     </section>
 </template>
 <script>
+    import "./menu.scss";
     import {eMenu} from "vuefront/lib/components/extensions/common/menu";
 
     export default {

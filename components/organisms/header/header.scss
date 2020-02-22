@@ -1,17 +1,22 @@
-
-.vf-o-header {
+.header {
   color: #fff;
   background-color: #6D4C41;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 
   .topbar {
     background-color: #3E2723;
 
-    a {
+    a:not(.dropdown-item) {
       color: #fff;
     }
   }
 
   .middlebar {
+    padding-top: 25px;
+    padding-bottom: 25px;
     a {
       color: #fff;
     }
@@ -21,7 +26,14 @@
     > .btn {
       &.btn-link,
       &.btn-link:hover {
+        padding: 0 0.5rem;
         color: #fff;
+        font-size: 1rem;
+      }
+      &.btn-link {
+        &:after {
+          display: none;
+        }
       }
     }
   }

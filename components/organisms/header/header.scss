@@ -1,0 +1,38 @@
+@import "~/assets/css/bootstrap";
+
+.vf-o-header {
+  color: $white;
+  background-color: saturate(darken($secondary, 15%), 10%);
+  display: none;
+  margin-bottom: 2rem;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+  .dropdown {
+    > .btn {
+      &.btn-link,
+      &.btn-link:hover {
+        padding: 0 0.5rem;
+        color: rgba($white, 0.8);
+        font-size: 1rem;
+      }
+      &.btn-link {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+  &__top {
+    background-color: saturate(darken($secondary, 30%), 15%);
+    color: $white;
+
+    a.vf-a-link,
+    a.vf-a-link:hover {
+      &:not([aria-controls]):not(.vf-e-common-menu__link) {
+        padding: 0.5rem 0.5rem;
+        color: rgba($white, 0.8);
+      }
+    }
+  }
+}

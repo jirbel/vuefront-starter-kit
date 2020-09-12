@@ -1,0 +1,27 @@
+@import "~/assets/css/bootstrap";
+
+.vf-e-store-category {
+  .vf-m-list-group-item.active {
+    z-index: 2;
+    box-shadow: 0 15px 10px -20px rgba($black, .3);
+  }
+  .vf-m-list-group-item-sub {
+    background-color: lighten($primary, 50%);
+    border-color: lighten($primary, 40%);
+
+    &:hover {
+      background-color: lighten($primary, 47%);
+    }
+
+    &.active {
+      background-color: lighten($primary, 40%);
+      border-color: lighten($primary, 35%);
+      color: darken($gray-700, 10%);
+    }
+
+    &.last-child {
+      z-index: 2;
+      box-shadow: 0 15px 10px -20px rgba($black, .3);
+    }
+  }
+}

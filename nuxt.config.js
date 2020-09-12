@@ -45,5 +45,5 @@ export default {
         plugins: [new LodashModuleReplacementPlugin({
             shorthands: true
         })]
-    }
+    },
 }

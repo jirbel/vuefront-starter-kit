@@ -66,6 +66,16 @@ typings/
 .next
 
 # nuxt.js build output
+.idea
+# Created by .ignore support plugin (hsz.mobi)
+sw.*
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
 .nuxt
 
 # Nuxt generate
@@ -76,9 +86,3 @@ dist
 
 # Serverless directories
 .serverless
-
-# IDE
-.idea
-
-# Service worker
-sw.*

@@ -1,14 +1,14 @@
 {
-  "titleText": "Comments",
+  "titleText": "Komentáře",
 
-  "writeText": "Write a review",
+  "writeText": "Napsat recenzi",
 
-  "ratingEntry": "Rating",
-  "nameEntry": "Your Name",
-  "reviewEntry": "Your Review",
-  "ratingError": "Rating field is required",
-  "authorError": "Name must be between 1 and 32 characters!",
-  "reviewError": "Review must be between 25 and 1000 characters!",
+  "ratingEntry": "Hodnocení",
+  "nameEntry": "Vaše jméno",
+  "reviewEntry": "Vaše hodnocení",
+  "ratingError": "Hodnocení je povinné.",
+  "authorError": "Jméno musí mít 1 až 32 znaků!",
+  "reviewError": "Recenze musí mít 25 až 1000 znaků!",
 
-  "buttonSend": "Send"
+  "buttonSend": "Poslat"
 }

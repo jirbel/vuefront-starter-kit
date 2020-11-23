@@ -1,5 +1,5 @@
 {
-  "textTitle": "Special",
+  "textTitle": "Speciál",
 
   "15Text": "15",
   "25Text": "25",
@@ -7,15 +7,15 @@
   "75Text": "75",
   "100Text": "100",
 
-  "defaultSortText": "Default",
-  "nameAscSortText": "Name (A - Z)",
-  "nameDescSortText": "Name (Z - A)",
-  "priceAscSortText": "Price (Low > High)",
-  "priceDescSortText": "Price (High > Low)",
-  "ratingAscSortText": "Rating (Highest)",
-  "ratingDescSortText": "Rating (Lowest)",
+  "defaultSortText": "Výchozí",
+  "nameAscSortText": "Názvu (A - Z)",
+  "nameDescSortText": "Názvu (Z - A)",
+  "priceAscSortText": "Ceny (Nižší > Vyšší)",
+  "priceDescSortText": "Ceny (Vyšší > Nižší)",
+  "ratingAscSortText": "Hodnocení (Nejvyšší)",
+  "ratingDescSortText": "Hodnocení (Nejnižší)",
   "modelAscSortText": "Model (A - Z)",
   "modelDescSortText": "Model (Z - A)",
 
-  "emptyText": "There are no products to list in this category."
+  "emptyText": "V této kategorii nejsou žádné produkty k zobrazení."
 }

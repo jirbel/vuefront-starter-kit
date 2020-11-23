@@ -1,9 +1,9 @@
 {
-  "compareText": "Compare",
-  "wishListText": "Wish List",
-  "signInText": "Sign In",
-  "registerText": "Register",
-  "myAccountText": "My Account",
-  "wishlistText": "Wishlist",
-  "signOutText": "Sign Out"
+  "compareText": "Porovnání",
+  "wishListText": "Seznam přání",
+  "signInText": "Přihlásit se",
+  "registerText": "Registrovat",
+  "myAccountText": "Můj účet",
+  "wishlistText": "Můj seznam přání",
+  "signOutText": "Odhlásit se"
 }

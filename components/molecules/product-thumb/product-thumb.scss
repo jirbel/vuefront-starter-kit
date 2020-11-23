@@ -1,0 +1,30 @@
+.vf-m-product-thumb {
+    margin-bottom: 30px;
+    &__image {
+        min-height: 213px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__title {
+        min-height: 70px;
+        max-height: 70px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__description {
+        min-height: 70px;
+        max-height: 70px;
+        overflow: hidden;
+    }
+    &__button-buy {
+        width: 50%;
+    }
+    &--wide {
+        .vf-m-product-thumb__title {
+            justify-content: left;
+        }
+    }
+}

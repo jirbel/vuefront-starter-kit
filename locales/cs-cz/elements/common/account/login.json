@@ -1,14 +1,14 @@
 {
-  "titleText": "Login",
-  "subTitleText": "Sign in to your account to continue.",
+  "titleText": "Přihlášení",
+  "subTitleText": "Přihlašte se do svého účtu pro pokračování.",
 
-  "emailEntry": "Email address",
-  "passwordEntry": "Password",
-  "emailError": "E-Mail Address does not appear to be valid!",
-  "passwordError": "Password must be between 4 and 20 characters!",
+  "emailEntry": "Emailová adresa",
+  "passwordEntry": "Heslo",
+  "emailError": "E-Mailová adresa není správna!",
+  "passwordError": "Heslo musí mít 4 až 20 znaků!",
 
-  "buttonSave": "Sign in",
+  "buttonSave": "Přihlásit",
 
-  "footerText": "Not registered?",
-  "footerLink": "Create account"
+  "footerText": "Nejste registrování?",
+  "footerLink": "Založte si účet"
 }

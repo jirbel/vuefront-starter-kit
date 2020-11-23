@@ -1,10 +1,10 @@
 {
-  "loginText": "Login",
-  "registerText": "Register",
-  "myAccountText": "My Account",
-  "editAccountText": "Edit Account",
-  "passwordText": "Password",
-  "addressText": "Address Book",
-  "wishlistText": "Wish List",
-  "logoutText": "Logout"
+  "loginText": "Přihlášení",
+  "registerText": "Registrace",
+  "myAccountText": "Můj účet",
+  "editAccountText": "Upravit účet",
+  "passwordText": "Heslo",
+  "addressText": "Adresář",
+  "wishlistText": "Seznam přání",
+  "logoutText": "Odhlásit se"
 }

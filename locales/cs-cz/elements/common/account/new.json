@@ -1,8 +1,8 @@
 {
-  "titleText": "New Customer",
-  "subTitleText": "Register Account.",
+  "titleText": "Nový zákazník",
+  "subTitleText": "Registrovaný Účet.",
 
-  "descriptionText": "By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.",
+  "descriptionText": "Založením účtu budete moci nakupovat rychleji, budete informování o statusu objednávky a budete moci sledovat, kde se Vaše předcházejíci objednávky nacházeji.",
 
-  "buttonContinue": "Continue"
+  "buttonContinue": "Pokračovat"
 }

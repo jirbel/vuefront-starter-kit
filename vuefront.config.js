@@ -17,11 +17,15 @@ export default {
         logo: {
             width: '380',
             height: '50',
-            path: '~/assets/img/logo_header.png'
+            path: '@/assets/img/logo_header.png'
         },
         footerLogo: {
-            path: '~/assets/img/logo_footer.svg'
-        }
+            path: '@/assets/img/logo_footer.svg'
+        },
+        categoryThumb: {
+            width: '75',
+            height: '50'
+        },
     },
     layouts: {
         '*': {
@@ -64,7 +68,7 @@ export default {
                         items: [
                             // 'https://opencart.vuefront.com/image/cache/catalog/demo/banners/MacBookAir-1140x380.jpg',
                             // 'https://opencart.vuefront.com/image/cache/catalog/demo/banners/iPhone6-1140x380.jpg'
-                            '/chameleon2-0.png'
+                            'https://chameleon-test.akon.cz/vuefront/chameleon2-0.png'
                         ]
                     }
                 ],
@@ -123,20 +127,39 @@ export default {
             contentTop: ['Checkout']
         }
     },
-    atoms: {},
+    atoms: {
+        Image: "~/components/atoms/image/image.vue"
+    },
     molecules: {
-        CartLink: '~/components/molecules/cart-link/cart-link.vue'
+        AccountMenu: "~/components/molecules/account-menu/account-menu.vue",
+        Dropdown: "~/components/molecules/dropdown/dropdown.vue",
+        Logo: "~/components/molecules/logo/logo.vue",
+        CartLink: '~/components/molecules/cart-link/cart-link.vue',
+        CategoryThumb: "~/components/molecules/category-thumb/category-thumb.vue",
+        ProductThumb: "~/components/molecules/product-thumb/product-thumb.vue",
     },
     organisms: {
+        Currency: "~/components/organisms/currency/currency.vue",
         Header: '~/components/organisms/header/header.vue',
         SearchInlineForm: '~/components/organisms/search-inline-form/search-inline-form.vue',
         Breadcrumb: '~/components/organisms/breadcrumb/breadcrumb.vue',
-        Position: '~/components/organisms/position/position.vue'
+        Position: '~/components/organisms/position/position.vue',
+        CategoryGrid: "~/components/organisms/category-grid/category-grid.vue",
+        CategoryProduct: "~/components/organisms/category-product/category-product.vue",
+        ProductThumb: "~/components/organisms/product-thumb/product-thumb.vue",
+        ProductGrid: "~/components/organisms/product-grid/product-grid.vue",
+        ProductSort: "~/components/organisms/product-sort/product-sort.vue",
     },
-    templates: {},
-    pages: {},
+    templates: {
+        StoreCategory: "~/components/templates/store/category/category.vue",
+    },
+    pages: {
+        StoreCategory: "~/components/pages/store/category/category.vue",
+    },
     loaders: {
-        OBreadcrumb: '~/components/organisms/breadcrumb/breadcrumb.loader.vue'
+        MCategoryThumb: "~/components/molecules/category-thumb/category-thumb.loader.vue",
+        OBreadcrumb: '~/components/organisms/breadcrumb/breadcrumb.loader.vue',
+        OCategoryGrid: "~/components/organisms/category-grid/category-grid.loader.vue",
     },
     extensions: {
         Menu: '~/components/extensions/common/menu/menu.vue',

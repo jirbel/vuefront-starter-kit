@@ -1,7 +1,7 @@
 {
-  "productColumn": "Product",
-  "priceColumn": "Price",
+  "productColumn": "Produkt",
+  "priceColumn": "Cena",
   "actionColumn": "",
 
-  "notificationText": " product successfully added to cart"
+  "notificationText": " produkt úspěšně přidán do košíku"
 }

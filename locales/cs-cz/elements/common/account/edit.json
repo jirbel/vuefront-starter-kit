@@ -1,16 +1,16 @@
 {
-  "titleText": "My Account Information",
-  "subTitleText": "Made with love by developers for developers.",
+  "titleText": "Informace o mém účtu",
+  "subTitleText": "Nějaký popis.",
 
-  "firstNameEntry": "First Name",
-  "lastNameEntry": "Last Name",
-  "emailEntry": "Email address",
-  "firstNameError": "First Name must be between 1 and 32 characters!",
-  "lastNameError": "Last Name must be between 1 and 32 characters!",
-  "emailError": "E-Mail Address does not appear to be valid!",
+  "firstNameEntry": "Jméno",
+  "lastNameEntry": "Přijmení",
+  "emailEntry": "Emailová adresa",
+  "firstNameError": "Jméno musí mít 1 až 32 znaků!",
+  "lastNameError": "Příjmení musí mít 1 až 32 znaků!",
+  "emailError": "E-Mailová adresa není správná!",
 
-  "buttonSave": "Save changes",
+  "buttonSave": "Uložit změny.",
 
-  "footerText": "Want to change your password?",
-  "footerLinkText": "Password"
+  "footerText": "Chcete změnit heslo?",
+  "footerLinkText": "Heslo"
 }

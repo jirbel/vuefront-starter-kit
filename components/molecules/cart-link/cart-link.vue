@@ -1,6 +1,6 @@
 <template>
   <vf-a-button nuxt to="/store/cart" color="secondary" block size="lg">
-    <vf-a-icon icon="shopping-cart" />
+    <vf-a-icon icon="shopping-cart" class="fa-fw mr-2" />
     <span class="d-none d-md-inline-block">{{ $t('elements.common.header.nav.shoppingCartText') }}</span>
   </vf-a-button>
 </template>

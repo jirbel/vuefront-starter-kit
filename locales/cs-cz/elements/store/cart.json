@@ -1,10 +1,10 @@
 {
-  "productColumn": "Product",
-  "priceColumn": "Price",
-  "quantityColumn": "Quantity",
-  "totalColumn": "Total",
+  "productColumn": "Produkt",
+  "priceColumn": "Cena",
+  "quantityColumn": "Množství",
+  "totalColumn": "Celkem",
   "actionColumn": "",
-  "totalText": "Total value:", 
-  "checkoutButton": "Checkout",
-  "returnButton": "Return to shop"
+  "totalText": "Cena celkem:",
+  "checkoutButton": "K pokladně",
+  "returnButton": "Zpět do obchodu"
 }

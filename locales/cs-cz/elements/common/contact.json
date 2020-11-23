@@ -1,16 +1,16 @@
 {
-  "titleText": "Contact us",
-  "subTitleText": "If there's something we can help you with, jut let us know. We'll be more than happy to offer you our help",
+  "titleText": "Kontaktujte nás",
+  "subTitleText": "Pokud máte cokoliv s čím Vám můžeme pomoci, neváhejte napsat.",
 
-  "namePlaceholder": "Your name",
-  "emailPlaceholder": "Email address",
-  "messagePlaceholder": "Type your message",
+  "namePlaceholder": "Vaše jméno",
+  "emailPlaceholder": "Emailová adresa",
+  "messagePlaceholder": "Napište Vaši zprávu",
 
-  "nameError": "Name must be between 3 and 32 characters!",
-  "emailError": "E-Mail Address does not appear to be valid!",
-  "messageError": "Message must be between 10 and 3000 characters!",
+  "nameError": "Jméno musí mít 3 až 32 znaků!",
+  "emailError": "Emailová adresa není správná.",
+  "messageError": "Zpráva musí obsahovat 3 až 3000 znaků!",
 
-  "buttonSend": "Send message",
+  "buttonSend": "Poslat zprávu",
 
-  "successText": "Your message has been successfully sent."
+  "successText": "Vaše zpráva byla úspěšně odeslána."
 }

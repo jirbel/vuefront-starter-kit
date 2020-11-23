@@ -1,14 +1,14 @@
 {
-  "productRow": "Product",
-  "imageRow": "Image",
-  "priceRow": "Price",
+  "productRow": "Produkt",
+  "imageRow": "Fotka",
+  "priceRow": "Cena",
   "modelRow": "Model",
-  "availabilityRow": "Availability",
-  "ratingRow": "Rating",
-  "summaryRow": "Summary",
+  "availabilityRow": "Dostupnost",
+  "ratingRow": "Hodnocení",
+  "summaryRow": "Shrnutí",
 
-  "inStockText": "In stock",
-  "outOfStockText": "Out of stock",
+  "inStockText": "Skladem",
+  "outOfStockText": "Není skladem",
 
-  "notificationText": " product successfully added to cart"
+  "notificationText": " produkt úspěšně přidán do košíku"
 }

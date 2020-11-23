@@ -1,7 +1,7 @@
 {
-  "textTitle": "Account",
-  "signInText": "Sign in",
-  "registerText": "Register",
-  "myAccountText": "My Account",
-  "wishlistText": "Wishlist"
+  "textTitle": "Účet",
+  "signInText": "Přihlášení",
+  "registerText": "Registrace",
+  "myAccountText": "Můj účet",
+  "wishlistText": "Seznam přání"
 }

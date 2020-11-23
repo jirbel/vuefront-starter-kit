@@ -1,25 +1,25 @@
 <template>
-  <vf-a-link to="/">
-    <vf-a-amp-image
-            v-if="$vuefront.isAMP"
-            :src="logo"
-            width="180"
-            height="40"
-            class="nav-section__logo"
+  <vf-a-link class="vf-m-logo d-block" to="/">
+    <vf-a-image
+      :src="getLogo"
+      alt
+      class="vf-m-logo__image"
+      :width="$vuefront.images.logo.width"
+      :width-amp="$vuefront.images.logo.width"
+      :height-amp="$vuefront.images.logo.height"
     />
-    <vf-a-image v-else :src="logo" alt class="nav-section__logo" height="51"/>
   </vf-a-link>
 </template>
 <script>
-  import {mLogo} from "vuefront/lib/components/molecules/logo";
-
-  export default {
-    mixins: [mLogo]
-  };
-</script>
-
-<style lang="scss">
-  .nav-section__logo {
-    margin-top: -25px;
+export default {
+  computed: {
+    getLogo() {
+      if (typeof this.$vuefront.images.logo.image !== "undefined") {
+        return this.$vuefront.images.logo.image;
+      } else {
+        return "https://vuefront.com/logo.png";
+      }
+    }
   }
-</style>
+};
+</script>

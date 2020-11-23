@@ -1,20 +1,20 @@
 {
-  "titleText": "Create account",
-  "subTitleText": "Made with love by developers for developers.",
+  "titleText": "Založit účet",
+  "subTitleText": "Popisek.",
 
-  "firstNameEntry": "First Name",
-  "lastNameEntry": "Last Name",
-  "emailEntry": "Email address",
-  "passwordEntry": "Password",
-  "confirmPasswordEntry": "Confirm password",
-  "firstNameError": "First Name must be between 1 and 32 characters!",
-  "lastNameError": "Last Name must be between 1 and 32 characters!",
-  "emailError": "E-Mail Address does not appear to be valid!",
-  "passwordError": "Password must be between 4 and 20 characters!",
-  "confirmPasswordError": "Password confirmation does not match password!",
+  "firstNameEntry": "Jméno",
+  "lastNameEntry": "Příjmení",
+  "emailEntry": "Emailová adresa",
+  "passwordEntry": "Heslo",
+  "confirmPasswordEntry": "Potvrdit heslo",
+  "firstNameError": "Jméno musí mít 1 až 32 znaků!",
+  "lastNameError": "Příjmení musí mít 1 až 32 znaků!",
+  "emailError": "E-Mailová adresa není správná!",
+  "passwordError": "Heslo musí mít 4 až 20 znaků!",
+  "confirmPasswordError": "Potvrzované heslo se neshoduje s heslem!",
 
-  "buttonSave": "Create my account",
+  "buttonSave": "Založit můj účet",
 
-  "footerText": "Already have an account?",
-  "footerLinkText": "Sign in"
+  "footerText": "Už máte účet?",
+  "footerLinkText": "Přihlásit"
 }

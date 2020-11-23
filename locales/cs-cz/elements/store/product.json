@@ -1,9 +1,9 @@
 {
     "idText": "ID: #",
-    "inStockText": "In stock",
-    "outOfStockText": "Out of stock",
-    "descriptionText": "Description:",
-    "buttonAddToCart": "Add to cart",
+    "inStockText": "Skladem",
+    "outOfStockText": "Není skladem",
+    "descriptionText": "Popis:",
+    "buttonAddToCart": "Koupit",
 
-    "notificationText": " product successfully added to cart"
+    "notificationText": " produkt úspěšně přidán do košíku"
 }
